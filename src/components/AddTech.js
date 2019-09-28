@@ -8,7 +8,7 @@ export default function AddTech() {
 
   function addTech(newTech) {
     if (newTech !== '') {
-      dispatch({ type: 'ADD_TECH', newTech: newTech });
+      dispatch({ type: 'ADD_TECH', newTech });
     }
     setNewTech('')
     document.getElementById('inputNewTech').focus();
